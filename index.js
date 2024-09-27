@@ -19,7 +19,7 @@ console.log("cors origin :", process.env.ORIGIN);
 
 app.use(
   cors({
-    origin: process.env.ORIGIN,
+    origin: 'https://leafy-licorice-ac601f.netlify.app',
     // origin: '*',
     mSethods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
